@@ -23,16 +23,7 @@
     @yield('content')
     {{View::make('footer')}}
 
-    <script>
-        $(document).ready(function()
-        {
-             $("button").click(function()
-             {
-                 alert ("all set")
-             })
-        })
-
-    </script>
+   
     <style>
         .custom-login{
             height: 500px;
